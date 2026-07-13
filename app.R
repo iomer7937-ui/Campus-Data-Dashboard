@@ -43,7 +43,7 @@ server <- function(input, output) {
         # draw the histogram with the specified number of bins
         hist(x, breaks = bins, col = 'darkgray', border = 'white',
              xlab = 'Student Data Values',
-             main ='Campus Data Distribution')
+             main = 'Campus Data Dashboard Distribution')
     })
 }
 
