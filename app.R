@@ -13,7 +13,7 @@ library(shiny)
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Campus Data Dashboard"),
+  titlePanel("Campus Data MVP Dashboard"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
